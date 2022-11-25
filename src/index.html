@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
+	<title>Clock</title>
+</head>
+<body>
+	
+	<div id="clock">
+		<div id="hoursArrow"></div>
+		<div id="minutesArrow"></div>
+		<div id="secondsArrow"></div>
+		<div id="inverseSecondsArrow"></div>
+		<div id="origin"></div>
+		<div id="currentDayOfMonth">1</div>
+		<div id="number12"><span>12</span></div>
+		<div id="number3"><span>3</span></div>
+		<div id="number6"><span>6</span></div>
+		<div id="number9"><span>9</span></div>
+
+		<div id="clockTimerSwitcher">
+			<div id="switchToClock" switched="true"></div>
+			<div id="switchToTimer" switched="false"></div>
+		</div>
+
+		<div id="timer">
+			<p id="timerText">Timer</p>
+			<div id="timerTimeFields">
+				<p><span id="timerHours">00</span>:<p>
+				<p><span id="timerMinutes">00</span>:</p>
+				<p><span id="timerSeconds">00</span>:</p>
+				<p><p id="timerMiliseconds">00</span></p>	
+			</div>
+			<div id="timerControll">
+				<button id="runTimer">Run</button>
+				<button id="pauseTimer">Pause</button>
+				<button id="resetTimer">Reset</button>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
